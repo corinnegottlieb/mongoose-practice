@@ -152,7 +152,7 @@ Person.find((	{ height:{"$gt":180}, salary:{"$gt":30000}	}), function(err, peopl
 //======================================================
 //======================================================
 //======================================================
-Person.find( { $or:[ {height:{"$gt":180}}, {salary:{"$gt":30000}}]}, function(err,people){
+Person.find( { $or:[ {height:{"$gt":180}}, {salary:{"$gt":30000}} ]}, function(err,people){
 
 });
 
